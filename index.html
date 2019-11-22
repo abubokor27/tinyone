@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tinyone Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Mansalva|PT+Sans&display=swap');
+
+
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Alata', sans-serif;
+font-family: 'Mansalva', cursive;
+*/
+
+fon {
+    margin: 0;
+    padding: 0;
+}
+
+#main_section {}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*------------------------------------------*/
+
+.header_area {}
+
+header {}
+
+.main_header {
+    background: #FCDB00;
+    padding: 30px 0;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo_img {
+    max-width: 30%;
+    flex-basis: 30%;
+}
+
+.logo_img img {
+    width: 165px;
+    margin-top: 8px;
+}
+
+.main_nav {
+    max-width: 70%;
+    flex-basis: 70%;
+}
+
+nav {}
+
+nav ul {
+    list-style-type: none;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all ease 0.5s;
+}
+
+/*---------------------
+Slider Area
+---------------------*/
+
+
+.slider_section {
+    background: #FCDB00;
+}
+
+.container {}
+
+.main_slider {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+
+.slider_text {
+    flex-basis: 38%;
+    max-width: 38%;
+}
+
+.slider_text h1 {
+    font-size: 32px;
+    padding-top: 5px;
+    font-family: PT Sans;
+    margin: 0;
+}
+
+.slider_text h3 {
+    font-family: pt sans;
+    color: #313841;
+}
+
+.slider_text p {
+    color: #555555;
+}
+
+.slider_text_icon {
+    font-size: 40px;
+}
+
+.slider_img {
+    flex-basis: 62%;
+    max-width: 62%;
+    text-align: end;
+}
+
+.slider_img img {
+    padding-right: 11px;
+    width: 283px;
+    height: 373px;
+}
+
+/*------------------------------------------*/
+.service_section {
+    margin-top: 100px;
+}
+
+.sec_area_one {
+    font-family: pt sans;
+    text-align: center;
+    margin: 0 200px;
+}
+
+.sec_area_one h1 {}
+
+.sec_area_one p {}
+
+.sec_area_two {}
+
+.sec_area_two_part_one {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.col-3 {
+
+    flex-basis: 27%;
+
+    display: flex;
+
+    margin-left: 6%;
+}
+
+.col-3-img {
+    flex-basis: 10%;
+    padding-top: 22px;
+}
+
+.col-3-img img {
+    /* margin-top: 65px; */
+}
+
+.col-3-txt {
+    flex-basis: 90%;
+    /* padding-right: 21px; */
+    padding-left: 25px;
+}
+
+.col-3-txt h1 {}
+
+.col-3-img p {}
+
+.sec_area_two_part_two {}
+
+
+
+/*------------------------------------------*/
+.about_section {
+    margin-top: 100px;
+    padding-top: 50px;
+    background: #010101;
+    padding-bottom: 100px;
+}
+
+.about_area {}
+
+.about_head {
+    font-family: pt sans;
+    text-align: center;
+    margin: 0 200px;
+}
+
+.about_head h1 {
+    color: #FCDB00;
+}
+
+.about_head p {
+    color: #676767;
+}
+
+.search {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.search input[type='email'] {
+    background: #FFFFFF;
+    padding: 8px 145px;
+    border-radius: 5px;
+}
+
+.search input[type='submit'] {
+
+    background: #FCDB00;
+
+    color: black;
+
+    padding: 8px 18px;
+
+    border-radius: 5px;
+
+    margin-left: 5px;
+}
+.ico_lst{text-align: center;}
+.ico_lst i{
+    background: #FCDB00;
+    font-size: 30px;
+    border-radius: 13px;
+    padding: 5px;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+/*------------------------------------------*/
+
+    </style>
+</head>
+
+<body>
+
+    <section id="main_section">
+
+        <section class="header_area">
+            <header class="main_header">
+                <div class="container">
+                    <div class="row">
+                        <div class="logo_img">
+                            <img src="logo.png" alt="">
+                        </div>
+
+                        <div class="main_nav">
+                            <nav>
+                                <ul class="menu">
+                                    <li><a href="http://www.facebook.com/abu.bokor27" target="_blank">Feature</a></li>
+                                    <li><a href="http://www.facebook.com/abu.bokor27" target="_blank">Support</a></li>
+                                    <li><a href="http://www.facebook.com/abu.bokor27" target="_blank">Blog</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </section>
+        <!------------------------------------------------------------------------------------------------------------------>
+
+        <section class="slider_section">
+            <div class="container">
+                <div class="main_slider">
+                    <div class="slider_text">
+                        <h1>Inspire your inspiration</h1>
+                        <h3>Simple to use for your app, products showcase and your inspiration</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+
+                        <div class="slider_text_icon">
+                            <i class="fa fa-apple"></i>
+                            <i class="fa fa-android"></i>
+                            <i class="fa fa-windows"></i>
+                        </div>
+                    </div>
+
+                    <div class="slider_img">
+                        <img src="mobi.png" alt="smartphone">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------------------------------------------------------------------------------------------>
+
+        <section class="service_section">
+            <div class="container">
+                <div class="sec_area_one">
+                    <h1>Tinyone features</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                </div>
+                <div class="sec_area_two">
+                    <div class="sec_area_two_part_one">
+                        <div class="col-3">
+                            <div class="col-3-img">
+                                <img src="tab.png" alt="">
+                            </div>
+                            <div class="col-3-txt">
+                                <h2>Fully Responsive</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="col-3-img">
+                                <img src="tab.png" alt="">
+                            </div>
+                            <div class="col-3-txt">
+                                <h2>Fully Responsive</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="col-3-img">
+                                <img src="tab.png" alt="">
+                            </div>
+                            <div class="col-3-txt">
+                                <h2>Fully Responsive</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sec_area_two_part_two">
+                        <div class="sec_area_two_part_one">
+                            <div class="col-3">
+                                <div class="col-3-img">
+                                    <img src="htmlcss.png" alt="">
+                                </div>
+                                <div class="col-3-txt">
+                                    <h2>Fully Responsive</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="col-3-img">
+                                    <img src="email.png" alt="">
+                                </div>
+                                <div class="col-3-txt">
+                                    <h2>Fully Responsive</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="col-3-img">
+                                    <img src="download.png" alt="">
+                                </div>
+                                <div class="col-3-txt">
+                                    <h2>Fully Responsive</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------------------------------------------------------------------------------------------>
+
+        <section class="about_section">
+            <div class="container">
+                <div class="about_area">
+                    <div class="about_head">
+                        <h1>Keep in touch with us</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                    </div>
+                    <div class="search">
+                        <input type="email" placeholder="Enter your email to update"> <input type="submit">
+                    </div>
+                </div>
+                <div class="ico_lst">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-android"></i>
+                    <i class="fa fa-product-hunt"></i>
+                </div>
+            </div>
+        </section>
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+    </section>
+
+
+    <!------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+
+
+</body>
+
+</html>
